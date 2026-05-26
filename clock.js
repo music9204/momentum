@@ -1,5 +1,6 @@
 const clock = document.querySelector("h1#clock")
 
+// 시간취득함수
 function getClock() {
   const date = new Date(); // 클래스 초기화
   const hours = date.getHours().toString().padStart(2, "0");
